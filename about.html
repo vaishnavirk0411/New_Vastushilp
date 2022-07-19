@@ -29,18 +29,12 @@
                 Home
               </a>
             </li>
-             <div class="dropdown">
-  <div class="dropbtn">Projects</div>
-  <div class="dropdown-content">
-    <a href="#">Commercial</a>
-    <a href="project.html">Residential</a>
-    <a href="#">Multi-family</a>
-    <a href="#">Institutional</a>
-    <a href="#">Industrial</a>
-    
-    
-  </div>
-</div>
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a href="project.html" class="nav-link m-10 nav-active" class="active">
+                  Projects
+                </a>
+              </li>
              
              <li class="nav-item">
               <a href="about.html" class="nav-link m-10 text-capitalize nav-active">
@@ -53,13 +47,20 @@
                 Contact
               </a>
             </li>
-            <li class="search"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
-          </ul>
-          
-          
+            <li class="nav-item">
+              <a href="https://www.google.com/maps/place/Vastushilpa+Consultants+And+Builders/@19.1113857,74.7239679,17z/data=!3m1!4b1!4m5!3m4!1s0x3bdcb0826a5643cf:0xf73cfdcc8f48332c!8m2!3d19.1113857!4d74.726162" target="_blank"" class="nav-link m-10 nav-active">
+                Location
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="triplex.html" class="nav-link m-10 nav-active ">
+                Why Vastushilp?
+              </a>
+            </li>
+            <!-- <li class="search"><a href="#"><i class="fa fa-fw fa-search"></i></a></li> -->
+          </ul>         
         </div>
-
-      </nav>
+         </nav>
      <section>
      <div class="container">
        <div class="about mb-4">
@@ -83,29 +84,137 @@ Success comes from the desire to do extraordinary things to reach beyond the sta
 
 Additionally we provide services to contractors for construction plans requiring professional engineering design and approval.  
               </p>
-              <a href="#">know more-></a>
+              <!-- <a href="#">know more-></a> -->
            </div>
            <div class="col-lg-4 my-1 py-3">
              <i class="fas fa-th fa-3x mb-3"></i>
              <h5 class="p-3 font-weight-bold">Concrete Services</h5>
              <p>The civil group spans a wide spectrum of services that provide public and environmental benefits to many areas within our communities. We strive to come up with creative solutions that allow our clients to participate in the process of project development. </p>
-             <a href="#">know more-></a>
+             <!-- <a href="#">know more-></a> -->
            </div>
             <div class="col-lg-4 my-1 py-3">
              <i class="fas fa-cube fa-3x mb-3"></i>
              <h5 class="p-3 font-weight-bold">Structure</h5>
              <p>Our experienced staff is capable of providing structural engineering services throughout the United States.We have the technical ability and experience whether it is an addition to your home, new custom home, commercial building, hospital, school, and everything in between. </p>
-             <a href="#">know more-></a>
+             <!-- <a href="#">know more-></a> -->
            </div>
-
-
-
          </div>
          <!--end of item-->
-
        </div>
      </div>
    </section>
+
+   <div class="container">
+    <div class="about mb-4">
+      <div class="row-text-center m-4">
+        <div class="col-md-12 text-center">
+         
+          <h2 class="mb-4">Meet The Team</h2>    
+
+<p>We have a passion in creating New and unique spaces</p>
+<br>
+        </div></div></div></div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./images/team2.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Vastushilp Constructions specialises in construction.</p>
+        <p>rkvastushilp@gmail.com</p>
+        <!-- <p><button class="button">Contact</button></p> -->
+        <span itemprop="telephone"><a>
+          <a href="tel:+919422220535">
+            </a><p><button class="button">Contact</button></p>
+        </a></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./images/team1.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Vastushilp Constructions specialises in construction.</p>
+        <p>rkvastushilp@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p> Vastushilp Constructions specialises in construction.</p>
+        <p>rkvastushilp@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  </style>
     <ul class="socialIcons">
       <p>&#169;2020 Vastushilp Constructions All rights reserved</p>
      <div class="copy">
