@@ -7,8 +7,8 @@ This is the "Future Ready Talent" Project. Basically we have created a Website a
 
 By using the AZURE SUBSCRIPTION FOR STUDENT I have created a resource Group( mystaticappnew ) in Azure portal in that group
 
-STEP 3: In the "Static web app" I have hosted our website by using GitHub account.
-
+In the "Static web app" I have hosted our website by using GitHub account.
+ I have aattched some screenshots regarding Project below.
 Now our Project is completed successfully . I have aattched some screenshots regarding Project below.
 
 
