@@ -1,5 +1,5 @@
 # New_Vastushilp
-Website Link ( click On FAQ image ):https://yellow-rock-0b091370f.1.azurestaticapps.net/
+Website Link :https://yellow-rock-0b091370f.1.azurestaticapps.net/
 
 Video demo URL :
 
