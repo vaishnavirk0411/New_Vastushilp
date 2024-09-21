@@ -3,13 +3,6 @@
 
 Video demo URL :
 
-This is the "Future Ready Talent" Project. Basically we have created a Website and hosted it to the #Microsoft Azure platform Here, we have created the Fresh Meal Shop website by using HTML,CSS,JS in the microsoft id "VISUAL STUDIO CODE" then
-
-By using the AZURE SUBSCRIPTION FOR STUDENT I have created a resource Group( mystaticappnew ) in Azure portal in that group
-
-In the "Static web app" I have hosted our website by using GitHub account.
- I have aattched some screenshots regarding Project below.
-Now our Project is completed successfully . I have aattched some screenshots regarding Project below.
 
 ![1](https://user-images.githubusercontent.com/65062235/181813933-8a627a3a-0f3a-4bd8-91d0-98b93e3c4eb9.png)
 
